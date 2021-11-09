@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TX_ALTUR"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".terceraActivity3">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="10dp"
+        android:text="CALCULO DE MASA CORPORAL"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Ingrese la altura"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/tx_altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Ingrese el peso"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/tx_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar datos"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado: "
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textSize="25dp"/>
+
+</LinearLayout>
